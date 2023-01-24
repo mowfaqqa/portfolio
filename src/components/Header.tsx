@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div className="flex items-center justify-between py-3">
         <div className="px-6">
-            {/* <h1 className="font-unbounded text-xl font-bold">MWFFQ</h1> */}
+            <h1 className="font-unbounded text-xl font-bold">MWFFQ</h1>
         </div>
       <div className="hidden md:flex items-center justify-center py-3 px-6 gap-5">
         <Link href="/" passHref>
