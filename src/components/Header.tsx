@@ -1,23 +1,26 @@
 import Link from "next/link";
 import { Menu, Transition } from '@headlessui/react'
-import { Fragment, useEffect, useRef, useState } from 'react'
+import { Fragment } from 'react'
 import { AlignCenter } from "react-feather";
 
 const Header = () => {
   return (
-    <div className="flex justify-end">
+    <div className="flex items-center justify-between">
+        <div className="px-6">
+            <h1 className="font-unbounded text-xl font-bold">MWFFQ</h1>
+        </div>
       <div className="hidden md:flex items-center justify-center py-3 px-6 gap-5">
         <Link href="/" passHref>
-          <span className="text-caribbean text-xl font-medium">Home</span>
+          <span className="text-taupe text-xl font-medium">Home</span>
         </Link>
         <Link href="/about" passHref>
-          <span className="text-caribbean text-xl font-medium">About</span>
+          <span className="text-taupe text-xl font-medium">About</span>
         </Link>
         <Link href="/project" passHref>
-          <span className="text-caribbean text-xl font-medium">Project</span>
+          <span className="text-taupe text-xl font-medium">Project</span>
         </Link>
         <Link href="#contact" passHref>
-          <span className="text-caribbean text-xl font-medium">Contact</span>
+          <span className="text-taupe text-xl font-medium">Contact</span>
         </Link>
       </div>
       <div className="block md:hidden fixed top-0 right-2 w-56 text-right">

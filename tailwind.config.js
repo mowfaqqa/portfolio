@@ -3,7 +3,7 @@ module.exports = {
   content: ["./src/**/*.{html,js,ts,tsx}"],
   theme: {
     fontFamily: {
-      readex: ["Readex Pro"],
+      readex: ["Readex Pro",],
       unbounded : ['Unbounded', 'cursive']
     },
     extend: {
