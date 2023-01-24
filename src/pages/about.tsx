@@ -65,7 +65,10 @@ const About = () => {
   ];
   return (
     <div className="max-w-6xl mx-auto overflow-hidden px-5">
-      <div className="grid grid-cols-1 md:grid-cols-2">
+      <div className="grid  items-center grid-cols-1 md:grid-cols-2">
+      <div className="px-12">
+          <Image src="/assets/mwffq.jpg" width={500} height={400} alt="mwffq" />
+        </div>
         <div className="mb-5">
           <h1 className="text-3xl text-center md:text-start my-4 font-bold text-caribbean">
             About Muwaffaq
@@ -101,10 +104,7 @@ const About = () => {
             build high-performing and user-friendly web applications using my
             stack.
           </p>
-          <button onClick={saveFile} className="text-caribbean border border-caribbean shadow-sm shadow-taupe hover:bg-taupe mt-4 px-3 py-2 rounded-md">View My Resume</button>
-        </div>
-        <div className="px-12">
-          <Image src="/assets/mwffq.jpg" width={500} height={400} alt="mwffq" />
+          <button onClick={saveFile} className="text-caribbean border border-caribbean shadow-sm shadow-taupe hover:bg-taupe mt-4 px-3 py-2 rounded-md block mx-auto">View My Resume</button>
         </div>
       </div>
       {/* skill */}
