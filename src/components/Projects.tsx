@@ -7,7 +7,7 @@ import { Link as Linked } from "react-feather";
 const Projects = () => {
   return (
     <div className="text-taupe/70">
-      <h1 className="text-3xl text-gray-100 font-readex ">Selected Projects</h1>
+      <h1 className="text-3xl text-center md:text-start text-gray-100 font-readex ">Selected Projects</h1>
       {/* projects */}
       <div>
         <div className="flex justify-between items-center">

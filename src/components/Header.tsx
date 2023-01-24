@@ -5,9 +5,9 @@ import { AlignCenter } from "react-feather";
 
 const Header = () => {
   return (
-    <div className="flex items-center justify-between">
+    <div className="flex items-center justify-between py-3">
         <div className="px-6">
-            <h1 className="font-unbounded text-xl font-bold">MWFFQ</h1>
+            {/* <h1 className="font-unbounded text-xl font-bold">MWFFQ</h1> */}
         </div>
       <div className="hidden md:flex items-center justify-center py-3 px-6 gap-5">
         <Link href="/" passHref>
@@ -16,7 +16,7 @@ const Header = () => {
         <Link href="/about" passHref>
           <span className="text-taupe text-xl font-medium">About</span>
         </Link>
-        <Link href="/project" passHref>
+        <Link href="#projects" passHref>
           <span className="text-taupe text-xl font-medium">Project</span>
         </Link>
         <Link href="#contact" passHref>

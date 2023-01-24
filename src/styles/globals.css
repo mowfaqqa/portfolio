@@ -9,7 +9,7 @@
 @Layer components {
    /* Tab */
    .Tab {
-    @apply mx-2 flex gap-6 text-sm font-medium text-taupe;
+    @apply mx-2 flex gap-6 text-sm py-3 text-caribbean;
   }
 
   .Tab__contained {
@@ -25,6 +25,6 @@
   }
 
   .Tab__outlined_selected {
-    @apply border-b-2 border-solid border-caribbean text-caribbean;
+    @apply border-b-2 border-solid border-caribbean text-taupe;
   }
 }
