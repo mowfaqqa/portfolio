@@ -1,4 +1,5 @@
 import Contact from '@/components/Contact'
+import Projects from '@/components/Projects'
 import Head from 'next/head'
 import Image from 'next/image'
 
@@ -12,6 +13,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
      <main className='max-w-6xl mx-auto overflow-hidden px-5'>
+      <Projects />
       <Contact />
      </main>
     </>
