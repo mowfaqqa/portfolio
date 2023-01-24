@@ -3,6 +3,7 @@ import Tab from "@/components/Tab";
 import Image from "next/image";
 import React from "react";
 import { saveAs } from "file-saver"
+import Contact from '@/components/Contact';
 
 const About = () => {
   const saveFile = () => {
@@ -132,6 +133,7 @@ const About = () => {
           ))}
         </div>
       </div>
+      <Contact />
     </div>
   );
 };
