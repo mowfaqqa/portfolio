@@ -25,6 +25,6 @@
   }
 
   .Tab__outlined_selected {
-    @apply border-b-2 border-solid border-caribbean text-taupe;
+    @apply border-b-2 border-peacock text-taupe;
   }
 }

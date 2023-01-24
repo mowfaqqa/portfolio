@@ -18,7 +18,7 @@ export const Tab = ({ tabs, variant, children }: ITabProps) => {
       <HeadlessTab.Group>
         <HeadlessTab.List
           className={clsx("Tab", {
-            ["border-b-2 border-gray-200 border-solid"]: variant === "outlined",
+            ["border-b border-solid"]: variant === "outlined",
           })}
         >
           {tabs.map((tab) => (
