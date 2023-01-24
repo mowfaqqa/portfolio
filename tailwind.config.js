@@ -11,7 +11,7 @@ module.exports = {
        taupe : "#b2a59f",
        spaceblue : "#023459",
        caribbean : "#1e646e",
-       peacock : "#002c2f",
+       peacock : "#00142f",
       }
     },
   },
